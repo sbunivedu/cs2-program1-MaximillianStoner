@@ -1,3 +1,7 @@
+//Max Stoner 9/6/2018
+//Program 1 CIS II Fall 2018
+//Professor: Dr. Lu
+
 
 import java.util.Scanner;
 
@@ -12,8 +16,9 @@ public static void main(String[] args)
 	char current;
 
 	//receive input
-	System.out.print("Please input your infix expression: ");
+	System.out.println("Please input your infix expression: ");
 	expression = scan.next();
+	System.out.print("Postfix Conversion: ");
 
 	//compute
 	for (int x = 0; x < expression.length(); x++)
